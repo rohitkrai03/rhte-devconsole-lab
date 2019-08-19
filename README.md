@@ -1,6 +1,6 @@
 # Red Hat Tech Exchange Lab - Hands on with Developer Console on OpenShift
 
-This page contains a series of instructios for hands-on lab on OpenShift Developer Console conducted during Red Hat Tech exchange.
+This page contains a series of instructions for hands-on lab on OpenShift Developer Console conducted during Red Hat Tech exchange.
 
 
 ## Overview
