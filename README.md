@@ -17,14 +17,14 @@ Openshift 4 has made Kubernetes even better. The new Developer Console provides 
 
 ## Labs Index
 
-* [1 - Introduction and Prerequisites](./intro.md)<br>
-* [2 - Login into OpenShift Console](./2.md)<br>
-* [3 - Switch to Developer Perspective](./3.md)<br>
-* [4 - Import an application using Git Import Flow](./4.md)<br>
-* [5 - Deploy an Image from Dockerhub](./5.md)<br>
-* [6 - Import an application from Git and build using Dockerfile](./6.md)<br>
-* [7 - Import an application using S2I from Developer Catalog](./7.md)<br>
-* [8 - Create a serverless application using Knative Serving Operator](./8.md)<br>
-* [9 - Create an application that binds to a database using App Binding Operator](./9.md)<br>
-* [10 - Intro to Openshift Pipelines](./10.md)<br>
-* [11 - Wrap up](./11.md)<br>
+* [0 - Introduction and Prerequisites](./intro.md)<br>
+* [1 - Login into OpenShift Console](./login.md)<br>
+* [2 - Switch to Developer Perspective](./perspective.md)<br>
+* [3 - Import an application using Git Import Flow](./git-import.md)<br>
+* [4 - Deploy an Image from Dockerhub](./deploy-image.md)<br>
+* [5 - Import an application from Git and build using Dockerfile](./dockerfile.md)<br>
+* [6 - Import an application using S2I from Developer Catalog](./s2i.md)<br>
+* [7 - Create a serverless application using Knative Serving Operator](./serverless.md)<br>
+* [8 - Create an application that binds to a database using App Binding Operator](./app-binding.md)<br>
+* [9 - Intro to Openshift Pipelines](./tekton.md)<br>
+* [10 - Wrap up](./wrap.md)<br>
