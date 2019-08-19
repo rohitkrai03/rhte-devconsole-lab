@@ -32,6 +32,21 @@ You will use this GUID to access your lab's environment and systems.
 Your unique GUID will also be embedded in your lab environment's host names.
 
 
+### Login to Openshift Console
+
+On the *Lab Information page* you will get the URL *Openshift Master Console*. This is the web console that we want to login and use for most of the lab instuctions. The username and password to access the console will be there below the URLs as well.
+
+1. Click on the URL and open the link in another tab.
+2. Use the credentials to login to the console on login screen.
+
+e.g
+
+Lab Information -
+![Lab Information](assets/lab.png)
+
+Login Screen - 
+![Login to Console](assets/login.png)
+
 
 ## Lab Environment Overview
 This lab environment is basically an OCP 4.1 cluster that has been upgraded to 4.2 using OTA update mechannism of Openshift. We will be working mostly through the UI of Openshift Console using the Developer perspective.
