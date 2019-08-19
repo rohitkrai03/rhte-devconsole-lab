@@ -48,7 +48,7 @@ Login Screen -
 ![Login to Console](assets/login.png)
 
 
-# Lab Environment Overview
+## Lab Environment Overview
 This lab environment is basically an OCP 4.1 cluster that has been upgraded to 4.2 using OTA update mechannism of Openshift. We will be working mostly through the UI of Openshift Console using the Developer perspective.
 
 
