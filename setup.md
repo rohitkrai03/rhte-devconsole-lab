@@ -48,12 +48,9 @@ Login Screen -
 ![Login to Console](assets/login.png)
 
 
-## Lab Environment Overview
+# Lab Environment Overview
 This lab environment is basically an OCP 4.1 cluster that has been upgraded to 4.2 using OTA update mechannism of Openshift. We will be working mostly through the UI of Openshift Console using the Developer perspective.
 
-## Prerequisites 
-Basic knowledge of Openshift is required for this lab. Also, some knowledge of Knative and Tekton Pipelines would be beneficial but not required.
 
-
-Next Lab: [1 - Login into OpenShift Console](./login.md)<br>
+Next Lab: [2 - Overview and Intro to Developer Perspective](./overview.md)<br>
 [Home](./README.md)
