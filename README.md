@@ -21,9 +21,8 @@ Basic knowledge of Openshift is required for this lab. Also, some knowledge of K
 
 ## Labs Index
 
-* [0 - Introduction and Prerequisites](./intro.md)<br>
-* [1 - Login into OpenShift Console](./login.md)<br>
-* [2 - Switch to Developer Perspective](./perspective.md)<br>
+* [1 - Setup](./setup.md)<br>
+* [2 - Overview and Intro to Developer Perspective](./overview.md)<br>
 * [3 - Import an application using Git Import Flow](./git-import.md)<br>
 * [4 - Deploy an Image from Dockerhub](./deploy-image.md)<br>
 * [5 - Import an application from Git and build using Dockerfile](./dockerfile.md)<br>
