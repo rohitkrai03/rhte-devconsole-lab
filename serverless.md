@@ -29,7 +29,8 @@
 - Click on create once all required form fields are filled to create the application.
 - After successful creation of the application you will be redirected to the **Topology View** where you can check the details of the application created.
 
-- Click on the application node that just got created and go to the **Resources** tab.
+- Serverless applications can be identified in topology with a `K` icon on the top of the node.
+- Click on the application node with the `K` icon that just got created and go to the **Resources** tab.
   - You will see `Revisions`, `Routes` and `Configurations` resources instead of `Pods`, `Builds`, `Services` and `Routes` that you see with regular import flows.
   - This is because in case of a **Serverless** application, **Knative Serving** resources get created that are provided by the operator.
 
