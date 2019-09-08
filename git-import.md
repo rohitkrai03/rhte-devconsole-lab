@@ -5,6 +5,7 @@
 - Enter the path of the application directory in Context Dir field if there are multiple applications in the repo. This step can be skipped for now.
 - Create secret from the Source Secret dropdown by selecting the Create New Secret option if the provided git repo is private. This step can be skipped for now.
 - Select builder image from the options provided. In this lab session for git import flow select **Modern Webapp** option.
+- You can change the builder image version from **Builder Image Version** dropdown. Leave it as it is for now.
 - The active project is pre-selected where the application will be created, it can be changed by going back and selecting another project from Projects dropdown.
 - If there are no application groups in your current project, option to create a new one will be auto selected and populated.
 - If there are application groups in the current project, first one will be auto selected in the dropdown. You can select one or create a new application group.
