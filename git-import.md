@@ -24,7 +24,10 @@
      - Using this option you can set the minimum and maximum amount of CPU and Memory container is allowed to use.
    - **Labels**
      - Using this option you can add labels to the application.
-- Click on the **Create** button to create the application.
+
+- Click on **Create** once all required form fields are filled to create the application.
+- After successful creation of the application you will be redirected to the **Topology View** where you can check the details of the application created, access the connected resources created for the application, check the build status, access route of the application etc.
+
 
 
 Next Lab: [4 - Deploy an Image from Dockerhub](./deploy-image.md)<br>
