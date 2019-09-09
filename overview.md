@@ -9,3 +9,5 @@ OpenShift Developer Console adds a new developer perspective to the default web 
 - Developer console's landing page is **Topology**. Switch to another page by selecting desired page from the Navigation Sidebar.
 
 
+Next Lab: [3 - Import an application using Git Import Flow](./git-import.md)<br>
+[Home](./README.md)

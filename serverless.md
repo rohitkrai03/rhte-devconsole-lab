@@ -36,3 +36,7 @@
 
 - Once deployed click on the `Route` icon on the topology node to access the application.
 - This application witll scale down to 0 pods when there is no traffic and automatically scale up to handle the traffic.
+
+
+Next Lab: [9 - Create an application that binds to a database using App Binding Operator](./app-binding.md)<br>
+[Home](./README.md)

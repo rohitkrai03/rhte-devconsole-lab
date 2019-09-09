@@ -21,3 +21,6 @@
 
 - Click on create once all required form fields are filled to create the application.
 - After successful creation of the application you will be redirected to the **Topology View** where you can check the details of the application created, access the connected resources created for the application, check the build status, access route of the application etc.
+
+Next Lab: [5 - Import an application from Git and build using Dockerfile](./dockerfile.md)<br>
+[Home](./README.md)

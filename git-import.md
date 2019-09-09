@@ -25,3 +25,7 @@
    - **Labels**
      - Using this option you can add labels to the application.
 - Click on the **Create** button to create the application.
+
+
+Next Lab: [4 - Deploy an Image from Dockerhub](./deploy-image.md)<br>
+[Home](./README.md)

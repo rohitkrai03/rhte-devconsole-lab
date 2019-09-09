@@ -6,3 +6,6 @@
 - Enter the port number that the docker container exposes in the **Container Port** field. The application will run on this port. Use port number *5000* for this flow. 
 - Follow the same steps as git import flow to fill out rest of the form fields.
 - Click on **Create** button to create the application.   
+
+Next Lab: [6 - Import an application using S2I from Developer Catalog](./s2i.md)<br>
+[Home](./README.md)

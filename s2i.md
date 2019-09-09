@@ -5,3 +5,7 @@
 - Enter this URL https://github.com/redhat-developer/s2i-dotnetcore-ex.git in **Git Repo** field.
 - Follow the same steps as git import flow to fill out rest of the form fields.
 - Click on **Create** button to create the application.   
+
+
+Next Lab: [7 - Introduction to Topology View](./topology.md)<br>
+[Home](./README.md)

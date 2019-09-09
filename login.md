@@ -1,1 +1,0 @@
-## Login into OpenShift Console
