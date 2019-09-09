@@ -21,8 +21,8 @@ Basic knowledge of Openshift is required for this lab. Also, some knowledge of K
 * [2 - Overview and Intro to Developer Perspective](./overview.md)<br>
 * [3 - Import an application using Git Import Flow](./git-import.md)<br>
 * [4 - Deploy an Image from Dockerhub](./deploy-image.md)<br>
-* [5 - Import an application from Git and build using Dockerfile](./dockerfile.md)<br>
-* [6 - Import an application using S2I from Developer Catalog](./s2i.md)<br>
+* [5 - Import an application using S2I from Developer Catalog](./s2i.md)<br>
+* [6 - Import an application from Git and build using Dockerfile](./dockerfile.md)<br>
 * [7 - Introduction to Topology View](./topology.md)<br>
 * [8 - Create a serverless application using Knative Serving Operator](./serverless.md)<br>
 * [9 - Create an application that binds to a database using App Binding Operator](./app-binding.md)<br>

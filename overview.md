@@ -1,15 +1,28 @@
 ## Overview and Intro to Developer Perspective
 
-OpenShift Developer Console adds a new developer perspective to the default web console that comes with OCP 4.2+. The original web console that came deployed on openshift cluster was very admin centric and often seemed very confusing for a simple developer workflow like importing a git repository and building the application that gets deployed on openshift. So, the new developer perspective adds curated developer workflows that makes it easy for a developer to use the console and create/test their applications in openshift seamlessly. Developer perspective also integrates serverless capabilties using Knative Serving Operator into these workflows. It also allows a developer to easily create and visualise their pipelines using Openshift Pipelines that uses Tekton.
+- OpenShift Developer Console adds an alternative perspective in the OpenShift UI that will sit beside the admin console. 
 
-- For using developer console login into web console using console master URL with username as admin and password as r3dh4t1!.
+- The new developer perspective - 
+  - Adds Curated workflows specific to developer use cases.
+  - Provides a **Topology** view that shows a visual representation of all the applications within a project, their build status, and the components and services associated with them
+  - Integrates serverless capabilties using **Knative Serving Operator** into these workflows. 
+  - Integrates the ability create and visualise Tekton Pipelines using **Openshift Pipelines Operator**.
+  - Integrates the ability to create workspaces and edit application code using **Ecplipse Che** or **Codeready Workspace**.
 
-- Switch to Developer console by selecting **Developer** option from the dropdown present on the top of the Navigation Sidebar.
+- After logging in to the console, you will see the **Dashboard** page which is default landing page of **Administrator** perspective. 
 
-- Developer console's landing page is **Topology**. Switch to another page by selecting desired page from the Navigation Sidebar.
+- Switch to **Developer** perspective.
+  - You will see the perspective switcher on the top of the navigation menu showing **Administrator** as current perspective.
+  - Click on the switcher to open a dropdown with all available perspectives.
+  - Select the **Developer** option from the dropdown.
 
-- Now let's create a new project that we'll use to import our applications.
-  - Click the **Project** dropdown and select **Create Project**.
+- You will be redirected **Topology** view which is the default landing page of **Developer** perspective.
+  - You will be in the context of `default` project.
+  - If there no workloads in your project **Topology** view defaults back to **+Add** page as an empty state.
+
+- Create a new project that you'll use to import new applications.
+  - Just below the masthead header, there is a secondary masthead which has **Project** ad **Application** dropdown selectors.
+  - Click on the **Project** dropdown and select **Create Project** option.
   - Enter a unique name for the **Name** field `rhte-project`. Optionally, add the **Display Name** and **Description** details for the Project.
   - Click **Create**.
   - A new project `rhte-project` will be created and set as your current context.

@@ -1,14 +1,34 @@
 ## Import an application from Git and build using Dockerfile
 
-- On **+Add** page select **From Dockerfile** flow.
-- In this flow, enter this URL `https://github.com/rohitkrai03/flask-dockerfile-example` in **Git Repo** field.
-- Enter the dockerfile path relative to **Context Dir** in the **Dockerfile Path** field under **Docker** section. This field is auto-populated by value `Dockerfile`. Do not change the value of this field for now as the example repo contains dockerfile in the root.
+- Go to the **+Add** page.
+- On **+Add** page select **From Dockerfile** option to go to the **Import from Dockerfile** flow.
 
-- Enter the port number that the docker container exposes in the **Container Port** field. The application will run on this port. Use port number `5000` for this flow. 
-- Follow the same steps as git import flow to fill out rest of the form fields.
+- In **Import from Dockerfile** form,
+
+  - In **Git** section,
+    - Enter `https://github.com/rohitkrai03/flask-dockerfile-example` in **Git Repo URL** field.
+
+  - In **Dockerfile** section,
+    - **Dockerfile Path** field is auto-populated with `Dockerfile`. You can change this value if your dockerfile exists in a directory other than root. For the purpose of this session do not change it.
+    - **Container Port** field is auto-populated with `8080` as default target port.
+    - Change the **Container Port** field from `8080` to `5000`. *This value should be equal to the value of `EXPOSE` in the dockerfile.*
+
+    - Fields in the **General** section will be auto populated based on the git repo URL.
+      - **Application** - *Adds `part-of` label to all the resources to create application grouping*.
+        - First item in the **Application** dropdown `rhte-app-group-1` is auto selected since there are more than one application grouping.
+        - Select `rhte-app-group-2` from the **Application** dropdown.
+      - **Name** - *A unique name for the application*
+        - This field is auto-populated with `flask-dockerfile-example` based on the git repo.
+        - Change auto-populated **Name** field `flask-dockerfile-example` to `flask-app`
+
+    - **Advanced Options** 
+      - Checkbox for **Create a route to the application** is by default checked and a route will be created for the application. You can uncheck it if no route is needed. Keep it checked for the purpose of this lab session.
+
+      - All the other **Advanced Options** are same as **Git Import Flow** and can be used to fine tune the configuration of deployed application.
 
 - Click on **Create** once all required form fields are filled to create the application.
 - After successful creation of the application you will be redirected to the **Topology View** where you can check the details of the application created. 
 
-Next Lab: [6 - Import an application using S2I from Developer Catalog](./s2i.md)<br>
+
+Next Lab: [7 - Introduction to Topology View](./topology.md)<br>
 [Home](./README.md)
