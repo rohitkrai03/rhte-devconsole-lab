@@ -8,6 +8,13 @@ OpenShift Developer Console adds a new developer perspective to the default web 
 
 - Developer console's landing page is **Topology**. Switch to another page by selecting desired page from the Navigation Sidebar.
 
+- Now let's create a new project that we'll use to import our applications.
+  - Click the **Project** dropdown and select *Create Project*.
+  - Enter a unique name for the *Name* field `rhte-project`. Optionally, add the *Display Name* and *Description* details for the Project.
+  - Click *Create*.
+  - A new project `rhte-project` will be created and set as your current context.
+
+
 
 Next Lab: [3 - Import an application using Git Import Flow](./git-import.md)<br>
 [Home](./README.md)
