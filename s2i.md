@@ -1,7 +1,7 @@
 ## Import an application using S2I from Developer Catalog
 
 - On **Add** page select **From Catalog** flow to open up the Developer catalog.
-- Select the type of application you want to create from the Developer catalog and click on **Create Application** button present in the sidebar to open **Source to Image** form. In this session for this flow select *.NET* from the provided options.
+- Select the type of application you want to create from the Developer catalog and click on **Create Application** button present in the sidebar to open **Source to Image** form. In this session for this flow select `.NET` from the provided options.
 - Click on **Try Sample** option to auto populate the git fields using the metadata from the `ImageStream`.
 - Follow the same steps as git import flow to fill out rest of the form fields.
 
