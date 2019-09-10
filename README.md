@@ -26,6 +26,6 @@ Basic knowledge of Openshift is required for this lab. Also, some knowledge of K
 * [7 - Introduction to Topology View](./topology.md)<br>
 * [8 - Create a serverless application using Knative Serving Operator](./serverless.md)<br>
 * [9 - Connect a database service to an application using Service Binding Operator](./service-binding.md)<br>
-* [10 - Create Che workspace with application sourcecode using Codeready Workspaces/Eclipse Che](./che.md)<br>
+* [10 - Create Che workspace with application source code using Codeready Workspaces/Eclipse Che](./che.md)<br>
 * [11 - Creating and managing pipelines using Openshift Pipelines](./tekton.md)<br>
 * [12 - Wrap up](./wrap.md)<br>
