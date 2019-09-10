@@ -43,7 +43,7 @@ The goal of the Service Binding Operator is to enable application authors to imp
     ```
   - Click on **Create** button to create the **OperatorSource** resource.
   - Navigate to the Operators->OperatorHub from the navigation menu.
-  - Select **Other** category to filter the operator and select the **Service Binding Operator** operator.
+  - Select **Other** category to filter the operator and select the **PostgreSQL Database** operator.
   - Click **Install** on the sidebar.
   - Click **Subscribe** on the subscription page without changing any default values.
   - Verify that it gets installed succesfully on **Installed Operator** page that you get redirected to. (It may take a few seconds)
