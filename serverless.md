@@ -10,7 +10,7 @@
   - In the search field enter `Knative Serving` and click on the **Knative Serving** operator. *A sidebar showing details of the selected **Operator** opens up on the right side.*
   - Click **Install** on the sidebar.
   - Click **Subscribe** on the subscription page without changing any default values.
-  - Verify that it gets installed succesfully on the **Installed Operator** page that you get redirected to. (It may take a few minutes)
+  - Verify that it gets installed succesfully on the **Installed Operator** page that you were redirected to. (It may take a few minutes)
   - Once installed successfully, verify that there is a new menu item **Serverless** in the navigation menu.
 
 - Switch back to the **Developer** perspective and go to the **+Add** page.

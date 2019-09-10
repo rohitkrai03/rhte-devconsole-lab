@@ -29,7 +29,7 @@ The goal of the Service Binding Operator is to enable application authors to imp
 
 - Install the Database Operator using an OperatorSource
   - Click on the `+` icon in the upper right side of the masthead header to open YAML editor.
-  - In the YAML editor enter following - 
+  - In the YAML editor enter the following - 
     ```yaml
     apiVersion: operators.coreos.com/v1
     kind: OperatorSource
@@ -46,15 +46,18 @@ The goal of the Service Binding Operator is to enable application authors to imp
   - Select **Database** from the list of category filters on the left side and select the **PostgreSQL Database** operator.
   - Click **Install** on the sidebar.
   - Click **Subscribe** on the subscription page without changing any default values.
-  - Verify that it gets installed succesfully on **Installed Operator** page that you get redirected to. (It may take a few seconds)
+  - Verify that it gets installed succesfully on **Installed Operator** page that you were redirected to. (It may take a few seconds)
 
 - Switch back to the **Developer** perspective.
+- Switch back to `rhte-project` using the project dropdown selector.
 
-- You have already imported `nodejs-crud-app` application in **Git Import** flow. This application needs to connect to a `postgresql` database to work properly.
+- You have already imported `nodejs-crud-app` application in the **Git Import** flow. This application needs to connect to a `postgresql` database to work properly.
+- Click on the **Route** icon from the topology node of `nodejs-crud-app`.
+  - On the application UI verify you can see **DB: N/A** on top. This means the application is not connected to any database.
 
 - Create a Database instance for the application
-  - Go to **+Add** page and select **YAML** option to go to the **Import YAML** flow.
-  - In the YAML editor enter following **OperatorSource** - 
+  - Go to **+Add** page and select the **YAML** option to go to the **Import YAML** flow.
+  - In the YAML editor enter the following - 
     ```yaml
     apiVersion: postgresql.baiju.dev/v1alpha1
     kind: Database
@@ -66,19 +69,18 @@ The goal of the Service Binding Operator is to enable application authors to imp
       imageName: postgres
       dbName: db-demo
     ```
-  - Click on **Create** button to create the **Database**.
+  - Click on the **Create** button to create the Database.
 
 - Go to the **Topology** view.
 
-- Add correct labels to the application 
-  - Now you need to set arbitrary labels on the application's **DeploymentConfig** in order for the **Service Binding Operator** to be able to find the application.
-  - Click on `nodejs-crud-app` node in the topology.
+- Add correct labels to the application *Note: Now you need to set arbitrary labels on the application's **DeploymentConfig** in order for the **Service Binding Operator** to be able to find the application*.
+  - Click on the `nodejs-crud-app` node in the topology.
   - From the **Actions** menu in the sidebar, select **Edit Labels**.
   - Add `connects-to=postgres environment=demo` labels to the input field in the modal and click **Save**.
 
-- Express an intent to bind the database and the application.
-  - Go to **+Add** page and select **YAML** option to go to the **Import YAML** flow.
-  - In the YAML editor enter following **OperatorSource** - 
+- Create a **ServiceBindingRequest** CR to bind the database and the application.
+  - Go to the **Add** page and select the **YAML** option to go to the **Import YAML** flow.
+  - In the YAML editor enter the following - 
     ```yaml
     apiVersion: apps.openshift.io/v1alpha1
     kind: ServiceBindingRequest
@@ -104,7 +106,7 @@ The goal of the Service Binding Operator is to enable application authors to imp
 
 - Go back to **Topology** view.
 - Once the service binding request is successfully completed, it causes the application to be re-deployed.
-- Click on the route icon of `nodejs-crud-app` to check the database connection in the application UI.
+- Click on the route icon of `nodejs-crud-app` node in topology to check the database connection in the application UI.
 
 Next Lab: [10 - Create Che workspace with application source code using Codeready Workspaces/Eclipse Che](./che.md)<br>
 [Home](./README.md)
