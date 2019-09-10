@@ -1,5 +1,7 @@
 ## Import an application using Git Import Flow
 
+### Instructions
+
 - From the **Empty State** page on **Topology** select **From Git** option to go to the **Git Import** flow.
 
 - In **Import from git** form,

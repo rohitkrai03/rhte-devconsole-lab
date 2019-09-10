@@ -1,8 +1,13 @@
 ## Introduction to Topology View
 
+
+### Overview
 **Topology** view provides an overview of the current or active project i.e any project selected in the project dropdown. It visually represents the applications present in the project in the form of donut shaped nodes. On clicking a node, a sidebar opens that provides the overview of the application and also shows the details of application resources like pods, build etc. Also the nodes have various decorators that are used for checking the build status opening the application URL etc. 
 
 - By default **Developer Console** opens up on **Topology** view, but you can also navigate to **Topology** view by selecting **Topology** option from the Navigation sidebar present on the left side of the page.
+
+
+### Instructions
 
 - In **Topology** view, from **Project** dropdown select the desired project. Select {} for this session.
 

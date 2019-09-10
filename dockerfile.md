@@ -1,5 +1,7 @@
 ## Import an application from Git and build using Dockerfile
 
+### Instructions
+
 - Go to the **+Add** page.
 - On **+Add** page select **From Dockerfile** option to go to the **Import from Dockerfile** flow.
 

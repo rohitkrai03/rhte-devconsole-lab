@@ -1,5 +1,7 @@
-## Overview and Intro to Developer Perspective
+## Overview of Developer Perspective and first steps
 
+
+### Overview
 - OpenShift Developer Console adds an alternative perspective in the OpenShift UI that will sit beside the admin console. 
 
 - The new developer perspective - 
@@ -8,6 +10,9 @@
   - Integrates serverless capabilties using **Knative Serving Operator** into these workflows. 
   - Integrates the ability create and visualise Tekton Pipelines using **Openshift Pipelines Operator**.
   - Integrates the ability to create workspaces and edit application code using **Ecplipse Che** or **Codeready Workspace**.
+
+
+### Instructions
 
 - After logging in to the console, you will see the **Dashboard** page which is default landing page of **Administrator** perspective. 
 

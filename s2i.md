@@ -1,4 +1,7 @@
-## Import an application using S2I from Developer Catalog
+## Import an application from Developer Catalog
+
+
+### Instructions
 
 - On **Add** page select **From Catalog** flow to open up the **Developer Catalog** which lists all the available **Builder Images** and **Service Templates**
 

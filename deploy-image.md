@@ -1,4 +1,6 @@
-## Deploy an Image from Dockerhub
+## Deploy a container image using Deploy Image flow
+
+### Instructions
 
 - Go to the **+Add** page using the navigation menu.
 

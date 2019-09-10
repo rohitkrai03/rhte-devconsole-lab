@@ -1,5 +1,7 @@
 ## Create a serverless application using Knative Serving Operator
 
+### Instructions
+
 - To be able to create a serverless application you need to install **Knative Serving Operator**.
 
 - Installing **Knative Serving** operator
@@ -7,7 +9,7 @@
   - Click on **Operators** in the navigation menu. 
   - Click on **Operatorhub** submenu item.
   - In the search field enter **Knative Serving** and click on the **Knative Serving** operator. *A sidebar showing details of the selected **Operator** opens up on the right side.*
-  - Click **Install** on the sidebar operator.
+  - Click **Install** on the sidebar.
   - Click **Subscribe** on the subscription page without changing any default values.
   - Verify that it gets installed succesfully on **Installed Operator** page that you get redirected to. (It may take a few minutes)
   - Once installed successfully, verify that there is a new menu item **Serverless** in the navigation menu.
