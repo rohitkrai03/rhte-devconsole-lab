@@ -14,19 +14,19 @@
 
 ### Instructions
 
-- After logging in to the console, you will see the **Dashboard** page which is default landing page of **Administrator** perspective. 
+- After logging in to the console, you will see the **Dashboard** page which is default the landing page of the **Administrator** perspective. 
 
-- Switch to **Developer** perspective.
+- Switch to the **Developer** perspective.
   - You will see the perspective switcher on the top of the navigation menu showing **Administrator** as current perspective.
   - Click on the switcher to open a dropdown with all available perspectives.
   - Select the **Developer** option from the dropdown.
 
-- You will be redirected **Topology** view which is the default landing page of **Developer** perspective.
+- You will be redirected to the **Topology** view which is the default landing page of the **Developer** perspective.
   - You will be in the context of `default` project.
-  - If there no workloads in your project **Topology** view defaults back to **+Add** page as an empty state.
+  - If there are no workloads in your project **Topology** view, it defaults to **+Add** page as an empty state.
 
 - Create a new project that you'll use to import new applications.
-  - Just below the masthead header, there is a secondary masthead which has **Project** ad **Application** dropdown selectors.
+  - Just below the masthead header, there is a secondary masthead which has the **Project** and **Application** dropdown selectors.
   - Click on the **Project** dropdown and select **Create Project** option.
   - Enter a unique name for the **Name** field `rhte-project`. Optionally, add the **Display Name** and **Description** details for the Project.
   - Click **Create**.

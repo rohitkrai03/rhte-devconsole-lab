@@ -1,13 +1,13 @@
-## Connect a database service to an application using Service Binding Operator
+## Connect a database service to an application using the Service Binding Operator
 
 ### Service Binding Operator
-The goal of the Service Binding Operator is to enable application authors to import an application and run it on OpenShift with operator-backed services such as databases, without having to perform manual configuration of secrets, configmaps, etc.
+The goal of the Service Binding Operator is to enable application authors to import an application and run it on OpenShift with operator-backed services. For example running a database without having to perform manual configuration of secrets, configmaps, etc.
 
 ### Instructions
 
-- Install the Service Binding Operator using an **OperatorSource**
-  - Go to **+Add** page and select **YAML** option to go to the **Import YAML** flow.
-  - In the YAML editor enter following **OperatorSource** - 
+- Install the Service Binding Operator using an OperatorSource
+  - Go to the **+Add** page and select the **YAML** option to go to the **Import YAML** flow.
+  - In the YAML editor enter the following - 
     ```yaml
     apiVersion: operators.coreos.com/v1
     kind: OperatorSource
@@ -19,17 +19,17 @@ The goal of the Service Binding Operator is to enable application authors to imp
       endpoint: https://quay.io/cnr
       registryNamespace: redhat-developer
     ```
-  - Click on **Create** button to create the **OperatorSource** resource.
+  - Click on the **Create** button to create the OperatorSource resource.
   - Switch to **Administrator** perspective.
-  - Navigate to the Operators->OperatorHub from the navigation menu.
-  - Select **Other** category to filter the operator and select the **Service Binding Operator** operator.
+  - Navigate to the **Operators** -> **OperatorHub** in the navigation menu.
+  - Select **Other** from the list of category filters on the left side and select the **Service Binding Operator** operator.
   - Click **Install** on the sidebar.
   - Click **Subscribe** on the subscription page without changing any default values.
-  - Verify that it gets installed succesfully on **Installed Operator** page that you get redirected to. (It may take a few seconds)
+  - Verify that it gets installed succesfully on the **Installed Operator** page that you were redirected to. (It may take a few seconds)
 
-- Install the Database Operator using an **OperatorSource**
-  - Click on the `+` icon in the top right side of the masthead header to open YAML editor.
-  - In the YAML editor enter following **OperatorSource** - 
+- Install the Database Operator using an OperatorSource
+  - Click on the `+` icon in the upper right side of the masthead header to open YAML editor.
+  - In the YAML editor enter following - 
     ```yaml
     apiVersion: operators.coreos.com/v1
     kind: OperatorSource
@@ -42,13 +42,13 @@ The goal of the Service Binding Operator is to enable application authors to imp
       registryNamespace: pmacik
     ```
   - Click on **Create** button to create the **OperatorSource** resource.
-  - Navigate to the Operators->OperatorHub from the navigation menu.
-  - Select **Other** category to filter the operator and select the **PostgreSQL Database** operator.
+  - Navigate to the **Operators** -> **OperatorHub** from the navigation menu.
+  - Select **Database** from the list of category filters on the left side and select the **PostgreSQL Database** operator.
   - Click **Install** on the sidebar.
   - Click **Subscribe** on the subscription page without changing any default values.
   - Verify that it gets installed succesfully on **Installed Operator** page that you get redirected to. (It may take a few seconds)
 
-- Switch back to **Developer** perspective.
+- Switch back to the **Developer** perspective.
 
 - You have already imported `nodejs-crud-app` application in **Git Import** flow. This application needs to connect to a `postgresql` database to work properly.
 
