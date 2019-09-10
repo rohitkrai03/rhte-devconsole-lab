@@ -9,19 +9,26 @@
 
 ### Instructions
 
-- In the **Topology** view, from the **Project** dropdown select the desired project. Select {} for this session.
-
-- From **Application** dropdown select the desired application group. Select {} for this session.
-
+- In the **Topology** view, from the **Project** dropdown select {} project.
+- From **Application** dropdown select {} application group.
 - An **Application Group** is represented visually as a white bubble behind the nodes.
-
 - Click on {} node to open the application sidebar.
 
   - **Overview Tab**
 
     - In this tab application details like name, project name, labels, annotations etc are shown.
-    - Using the arrows on the right side of the pod donut, you can scale the pods up/down. For serverless applications, the pod scales down to zero when idle and scales up based on the traffic.
-    - Under **Annotations** the number of annotations and a pencil icon are shown and by clicking on it a modal is opened. Using this modal you can add or remove annotations.  
+    - Using the arrows on the right side of the pod donut, you can scale the pods up/down. For serverless applications, the pod scales down to zero when idle and scales up based on the traffic. Try to scale up {} pods. 
+    - Under **Annotations** the number of annotations and a pencil icon are shown and by clicking on it a modal is opened. Using this modal you can add or remove annotations. For connecting {} to {} add `KEY` as `app.openshift.io/connects-to` and `VALUE` as {}. 
+
+  - **Resources Tab**
+
+    - In this tab you can see the detailed list of all pods, builds, services and routes. 
+- Close the sidebar by clicking on `x` button on top.
+- Now, hover over the {} node and drag and drop the dashed blue arrow to the node you want to connect to.
+- Select `all applications` from the application dropdown.
+- Now, drag and drop the node to {} application group. This is how you can regroup the applications.
+
+
 
 
 Next Lab: [8 - Create a serverless application using Knative Serving Operator](./serverless.md)<br>
