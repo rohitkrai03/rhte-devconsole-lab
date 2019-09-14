@@ -33,5 +33,5 @@
 - After successful creation of the application you will be redirected to the **Topology View** where you can check the details of the application created.
 
 
-Next Lab: [5 - Import an application using S2I from Developer Catalog](./s2i.md)<br>
+Next Lab: [5 - Import an application from Developer Catalog](./s2i.md)<br>
 [Home](./README.md)

@@ -52,5 +52,5 @@ Login Screen -
 This lab environment is basically an OCP 4.1 cluster that has been upgraded to 4.2 using OTA update mechannism of Openshift. We will be working mostly through the UI of Openshift Console using the Developer perspective.
 
 
-Next Lab: [2 - Overview and Intro to Developer Perspective](./overview.md)<br>
+Next Lab: [2 - Overview of Developer Perspective and first steps](./overview.md)<br>
 [Home](./README.md)

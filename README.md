@@ -26,7 +26,7 @@ Basic knowledge of Openshift is required for this lab. Also, some knowledge of K
 * [7 - Install Knative Serving Operator to enable serverless options](./install-knative.md)<br>
 * [8 - Introduction to Topology View](./topology.md)<br>
 * [9 - Create a serverless application using Knative Serving Operator](./serverless.md)<br>
-* [10 - Install Eclipse Che Cluster](./install-che.md)<br>]
+* [10 - Install Eclipse Che Cluster](./install-che.md)<br>
 * [11 - Connect a database service to an application using Service Binding Operator](./service-binding.md)<br>
-* [12 - Create Che workspace with application source code using Codeready Workspaces/Eclipse Che](./che.md)<br>
+* [12 - Create Che workspace with application source code using Codeready Workspaces/Eclipse Che](./che-workspace.md)<br>
 * [13 - Wrap up](./wrap.md)<br>

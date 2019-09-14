@@ -13,7 +13,7 @@
   - Verify that it gets installed succesfully on the **Installed Operator** page that you were redirected to. (It may take a few minutes)
   - Once installed successfully, verify that there is a new menu item **Serverless** in the navigation menu.
 
-- Switch back to the **Developer** perspective and go to the **+Add** page.
+- Switch back to the **Developer** perspective and go to the **Topology** page.
 
 Next Lab: [8 - Introduction to Topology View](./topology.md)<br>
 [Home](./README.md)

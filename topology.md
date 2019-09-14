@@ -31,5 +31,5 @@
 
 
 
-Next Lab: [8 - Create a serverless application using Knative Serving Operator](./serverless.md)<br>
+Next Lab: [9 - Create a serverless application using Knative Serving Operator](./serverless.md)<br>
 [Home](./README.md)

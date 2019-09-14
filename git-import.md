@@ -49,5 +49,5 @@
 
 
 
-Next Lab: [4 - Deploy an Image from Dockerhub](./deploy-image.md)<br>
+Next Lab: [4 - Deploy a container image using Deploy Image flow](./deploy-image.md)<br>
 [Home](./README.md)

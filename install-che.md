@@ -26,5 +26,5 @@
 
 - Switch back to **Developer Perspective**. You can see the new deployments getting created on the **Topology** view for the **Che Cluster**.
 
-Next Lab: [9 - Connect a database service to an application using Service Binding Operator](./service-binding.md)<br>
+Next Lab: [11 - Connect a database service to an application using Service Binding Operator](./service-binding.md)<br>
 [Home](./README.md)
