@@ -19,7 +19,7 @@
     - Click on the dropdown and select the `Create Application` option.
     - Enter `rhte-app-group-2` in the **Application Name** field.
   - **Name** - *A unique name for the application*
-    - This field is auto-populated with `tag-portal-v1` based on the image name. You can leave the auto-populated value as it for this lab. 
+    - This field is auto-populated with `tag-portal-v1` based on the image name. You can leave the auto-populated value as it is for this lab. 
 
 - **Advanced Options** 
   - The checkbox for **Create a route to the application** is checked by default and a route will be created for the application. You can uncheck it if no route is needed. Keep it checked for the purpose of this lab session.

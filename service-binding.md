@@ -108,5 +108,5 @@ The goal of the Service Binding Operator is to enable application authors to imp
 - Once the service binding request is successfully completed, it causes the application to be re-deployed.
 - Click on the route icon of `nodejs-crud-app` node in topology to check the database connection in the application UI.
 
-Next Lab: [12 - Create Che workspace with application source code using Codeready Workspaces/Eclipse Che](./che.md)<br>
+Next Lab: [12 - Create Che workspace with application source code using Codeready Workspaces/Eclipse Che](./che-workspace.md)<br>
 [Home](./README.md)
