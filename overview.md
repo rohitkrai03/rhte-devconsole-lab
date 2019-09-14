@@ -14,7 +14,7 @@
 
 ### Instructions
 
-- After logging in to the console, you will see the **Dashboard** page which is default the landing page of the **Administrator** perspective. 
+- After logging in to the console, you will see the **Dashboard** page which is the default landing page of the **Administrator** perspective. 
 
 - Switch to the **Developer** perspective.
   - You will see the perspective switcher on the top of the navigation menu showing **Administrator** as current perspective.
