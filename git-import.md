@@ -4,7 +4,7 @@
 
 - From the **Empty State** page on **Topology** select **From Git** option to go to the **Git Import** flow.
 
-- In **Import from git** form,
+- In the **Import from git** form,
   - The active project `rhte-project` is pre-selected where the application will be created, it can be changed by going back and selecting another project from **Projects** dropdown in secondary masthead.
   
   - In the **Git** section,

@@ -23,7 +23,7 @@
 
 - You will be redirected to the **Topology** view which is the default landing page of the **Developer** perspective.
   - You will be in the context of `default` project.
-  - If there are no workloads in your project **Topology** view, it defaults to **+Add** page as an empty state.
+  - If there are no workloads in your project, the  **Topology** view defaults to an empty state to let you add new workloads in that project.
 
 - Create a new project that you'll use to import new applications.
   - Just below the masthead header, there is a secondary masthead which has the **Project** and **Application** dropdown selectors.

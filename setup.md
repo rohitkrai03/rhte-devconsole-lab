@@ -7,8 +7,6 @@ On your laptop, you **MUST** open a browser tab with [*Lab GUID Assignment page*
 * From this page, you will be assigned your unique GUID, which you will use to access your unique lab environment and systems.
 
 
-> **NOTE: You are not required to login anywhere at this point, in this intro lab you will only get the information related to your assigned lab environments.**
-
 ### Getting Cluster Environment - **Browser Tab**
 
 This will be your lab environment where all of the work will be done. 
@@ -49,7 +47,7 @@ Login Screen -
 
 
 ## Lab Environment Overview
-This lab environment is basically an OCP 4.1 cluster that has been upgraded to 4.2 using OTA update mechannism of Openshift. We will be working mostly through the UI of Openshift Console using the Developer perspective.
+This lab environment is an OCP 4.2 Dev Preview cluster. We will be working mostly through the UI of Openshift Console using the Developer perspective.
 
 
 Next Lab: [2 - Overview of Developer Perspective and first steps](./overview.md)<br>

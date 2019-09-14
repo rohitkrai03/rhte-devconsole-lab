@@ -2,6 +2,8 @@
 
 ### Instructions
 
+- In the **Topology** view, select `rhte-che` project from the **Project** dropdown in secondary masthead.
+
 - Check if `Che` and `Keycloak` deployments are successful.
   - Click on the **Route** icon of the `Keycloak` node from **Topology**.
     - Allow self signed SSL certificates in the browser. Once allowed you can see the `Keycloak` dashboard UI.
@@ -42,12 +44,15 @@
   - Verify that a new link is added to the **Application Launcher** menu (3x3 grid icon) from the right side of primary masthead.
 
 - Switch the project to `rhte-project` from project dropdown selector.
+  
 - Go back to the **Topology** view.
 - Click on the **Edit Source Code** icon of `flask-app` node.
 - It will redirect you to the **Che Workspace Factory** URL and trigger the creation of your workspace with the source code of the deployed application.
+
+
 - Workspace creation usually takes a few minutes to complete.
 - Once completed your new workspace will be started.
   - If you see an error on the page with a URL, copy that URL and open it in the broswer. Allow the self singed certificates in the browser and you'll be able to start your workspace.
 
-Next Lab: [13 - Wrapo Up](./tekton.md)<br>
+Next Lab: [13 - Wrap Up](./wrap.md)<br>
 [Home](./README.md)

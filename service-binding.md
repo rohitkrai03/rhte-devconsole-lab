@@ -5,6 +5,8 @@ The goal of the Service Binding Operator is to enable application authors to imp
 
 ### Instructions
 
+- In the **Topology** view, select `rhte-project` project from the **Project** dropdown in secondary masthead.
+
 - Install the Service Binding Operator using an OperatorSource
   - Go to the **+Add** page and select the **YAML** option to go to the **Import YAML** flow.
   - In the YAML editor enter the following - 
