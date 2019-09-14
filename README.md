@@ -23,9 +23,10 @@ Basic knowledge of Openshift is required for this lab. Also, some knowledge of K
 * [4 - Deploy a container image using Deploy Image flow](./deploy-image.md)<br>
 * [5 - Import an application from Developer Catalog](./s2i.md)<br>
 * [6 - Import an application from Git and build using Dockerfile](./dockerfile.md)<br>
-* [7 - Introduction to Topology View](./topology.md)<br>
-* [8 - Create a serverless application using Knative Serving Operator](./serverless.md)<br>
-* [9 - Connect a database service to an application using Service Binding Operator](./service-binding.md)<br>
-* [10 - Create Che workspace with application source code using Codeready Workspaces/Eclipse Che](./che.md)<br>
-* [11 - Creating and managing pipelines using Openshift Pipelines](./tekton.md)<br>
-* [12 - Wrap up](./wrap.md)<br>
+* [7 - Install Knative Serving Operator to enable serverless options](./install-knative.md)<br>
+* [8 - Introduction to Topology View](./topology.md)<br>
+* [9 - Create a serverless application using Knative Serving Operator](./serverless.md)<br>
+* [10 - Install Eclipse Che Cluster](./install-che.md)<br>]
+* [11 - Connect a database service to an application using Service Binding Operator](./service-binding.md)<br>
+* [12 - Create Che workspace with application source code using Codeready Workspaces/Eclipse Che](./che.md)<br>
+* [13 - Wrap up](./wrap.md)<br>

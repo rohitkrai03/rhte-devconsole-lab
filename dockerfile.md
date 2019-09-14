@@ -32,5 +32,5 @@
 - After successful creation of the application you will be redirected to the **Topology View** where you can check the details of the application created. 
 
 
-Next Lab: [7 - Introduction to Topology View](./topology.md)<br>
+Next Lab: [7 - Install Knative Serving Operator to enable serverless options](./install-knative.md)<br>
 [Home](./README.md)
