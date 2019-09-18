@@ -2,7 +2,7 @@
 
 ## Getting your dedicated lab environments using Guid Grabber
 
-On your laptop, you **MUST** open a browser tab with [*Lab GUID Assignment page*](https://www.opentlc.com/gg/gg.cgi?profile=generic_tester) before continuing with the lab instructions:
+On your laptop, you **MUST** open a browser tab with [*Lab GUID Assignment page*](https://www.opentlc.com/gg/gg.cgi?profile=generic_rhte) before continuing with the lab instructions:
 
 * From this page, you will be assigned your unique GUID, which you will use to access your unique lab environment and systems.
 
